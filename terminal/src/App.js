@@ -32,7 +32,7 @@ function App() {
 
   const [newTask, setNewTask] = useState(''); // State to hold the new task
   const [data, setData] = useState('');
-
+  
   useEffect(() => {
     fetch('http://localhost:8080/get_tasks')
       .then(response => response.json())
