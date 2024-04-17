@@ -37,6 +37,9 @@ def get_todo():
 @app.route('/update_tasks', methods=['POST'])
 def update_tasks():
     try:
+        task_id = request.args.get('id') # Check if the id parameter is provided
+        if task_id is None:
+            return jsonify({'error': 'No task id provided'}), 400
         data = request.get_json()
         mongo.db.test.delete_many({})
         mongo.db.test.insert_one(data)
