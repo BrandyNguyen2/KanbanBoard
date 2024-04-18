@@ -8,6 +8,8 @@
 ## Overview:
 This project is a kanban board task managment system where users can add a task in a certain category: to do, doing, done, or dropped. In addition, users can update their task and delete certain tasks in any category by simply making sure to select the correct category when doing these updates.
 
+## Video demo link: 
+
 ## How to run 
 - Install node
 - Install visual studio code
@@ -28,17 +30,29 @@ This project is a kanban board task managment system where users can add a task 
     - python api.py
 3. Run the database
     - Have docker desktop started and minimised. Run docker-compose up in the terminal
+
 ## Software Requirement Specifications
 - Home screen and then three columns - to do, doing, done, dropped
 
 1.1 to do
 - Needs to have create task
+- Working update task option
+- Be able to delete task
 
 1.2 doing
+- Needs to have create task
+- Working update task option
+- Be able to delete task
 
 1.3 done
+- Needs to have create task
+- Working update task option
+- Be able to delete task
 
 1.4 dropped
+- Needs to have create task
+- Working update task option
+- Be able to delete task
 
 ## Scrum update 16th February
 -Who is doing what?
