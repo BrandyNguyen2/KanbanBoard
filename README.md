@@ -3,18 +3,21 @@
 ### Poleth Acosta, Jason Chieu, Brandy Nguyen, Vinh Nguyen
 # Requirements
 - Working front-end
-- 
--
+- Functional backend 
+- Add, update, and delete buttons should work
+## Overview:
+This project is a Kanban style task managment system where users can add a task in a certain category: to do, doing, done, or dropped. 
 ## Software Requirement Specifications
-- Home screen and then three columns - to do, doing, done
+- Home screen and then three columns - to do, doing, done, dropped
 
 1.1 to do
 - Needs to have create task
-- 
 
 1.2 doing
 
 1.3 done
+
+1.4 dropped
 
 ## Scrum update 16th February
 -Who is doing what?
@@ -39,5 +42,3 @@ Brandy Nguyen, Poleth Acosta, Vinh Nguyen, Jason Chiu: update readME.md, started
 Finish backend and have both front and backend functional
 
 ![Business Flowchart](image.png)
-## Change after discussion
-- 
