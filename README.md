@@ -6,7 +6,28 @@
 - Functional backend 
 - Add, update, and delete buttons should work
 ## Overview:
-This project is a Kanban style task managment system where users can add a task in a certain category: to do, doing, done, or dropped. 
+This project is a Kanban style task managment system where users can add a task in a certain category: to do, doing, done, or dropped. In addition, users can update their task and delete certain tasks in any category by simply making sure to select the correct category when doing these updates.
+
+## How to run 
+- Install node
+- Install visual studio code
+- Install Docker
+1. Run the frontend
+    - Open terminal in the project folder
+    - cd terminal
+    - cd src
+    - npm install react-modal
+    - npm start (should run on localhost:3000)
+2. Run the backend
+    - Open terminal in the project folder
+    - cd terminal
+    - cd backend
+    - pip install Flask
+    - pip install Flask-PyMongo
+    - pip install -U flask-cors
+    - python api.py
+3. Run the database
+    - Have docker desktop started and minimised. Run docker-compose up in the terminal
 ## Software Requirement Specifications
 - Home screen and then three columns - to do, doing, done, dropped
 
