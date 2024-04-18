@@ -103,7 +103,6 @@ function App() {
   };
 
   log_data({ data });
-  //tasks[0].push(data)
 
   return (
     <div className="App">
