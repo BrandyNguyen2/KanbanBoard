@@ -5,6 +5,7 @@
 - Working front-end
 - Functional backend 
 - Add, update, and delete buttons should work
+- Database should store data properly
 ## Overview:
 This project is a kanban board task managment system where users can add a task in a certain category: to do, doing, done, or dropped. In addition, users can update their task and delete certain tasks in any category by simply making sure to select the correct category when doing these updates.
 
